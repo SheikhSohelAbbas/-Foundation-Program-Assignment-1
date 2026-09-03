@@ -21,7 +21,7 @@ function getDayType(day) {
 }
 
 // Test
-console.log(getDayType("Friday"));
-console.log(getDayType("friday"));
-console.log(getDayType("MONDAY"));
+// console.log(getDayType("Friday"));
+// console.log(getDayType("friday"));
+// console.log(getDayType("MONDAY"));
 console.log(getDayType("Bandarban"));
