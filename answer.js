@@ -10,7 +10,7 @@ function describeValue(value) {
     }
 }
 
-// Question 2 : Bangladesh Weekend Machine 
+// Question 2 : Bangladesh Weekend Machine?
 
 function getDayType(day) {
     const dayName = day.toLowerCase();
@@ -31,7 +31,7 @@ function getDayType(day) {
     }
 }
 
-// Question 3: Username Gatekeeper 
+// Question 3: Username Gatekeeper?
 
 function validateUsername (username) {
     if (username.length < 4) {
@@ -45,3 +45,21 @@ function validateUsername (username) {
     }
     return " Available " ;
 }
+
+// Question 4:- Dhaka CNG fare Meter?
+
+function getCngFare(distance,isNight = false,waitingMinutes = 0) {
+    let fare =50;
+
+    if (distance > 2) {
+    fare = fare + (distance - 2) * 15 ;
+    }
+
+    fare = fare + waitingMinutes * 2;
+    if (isNight) {
+
+        fare =fare * 1.20 ;
+    }
+    return fare ;
+}
+
