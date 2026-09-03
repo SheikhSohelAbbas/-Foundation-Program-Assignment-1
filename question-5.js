@@ -11,6 +11,7 @@ const getChaseVerdict =(target,scored,ballsLeft) =>  {
     }
     const requiredRate =(runsNeeded / ballsLeft ) * 6  ;
 
+    
     let verdict  ;
 
     if (requiredRate <= 6) {
