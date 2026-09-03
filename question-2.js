@@ -1,15 +1,3 @@
-// Question 1: Value Detective?
-
-function describeValue(value) {
-    const type  = typeof value;
-
-    if (value) {
-        return ` ${type} | truthy `;
-    } else {
-        return ` ${type} | falsy `;
-    }
-}
-
 // Question 2 : Bangladesh Weekend Machine 
 
 function getDayType(day) {
@@ -31,3 +19,9 @@ function getDayType(day) {
             return "Invalid Day";
     }
 }
+
+// Test
+console.log(getDayType("Friday"));
+console.log(getDayType("friday"));
+console.log(getDayType("MONDAY"));
+console.log(getDayType("Bandarban"));
